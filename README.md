@@ -18,13 +18,13 @@ Library:ChangeKeybind(Enum.Keycode.X) -- Arg 1: Keycode; Toggle keybind
   Notifying
   ```lua
 Library:Notify({
-  Title = "Kewl title";
-  Text = "Message test";
-  Duration = 3
+    Title = "Kewl title";
+    Text = "Message test";
+    Duration = 3
 })
-  --Arg 1: String; Notification Title
-  --Arg 2: String; Notification Text
-  --Arg 3: Number; Notification Duration
+  -- Arg 1: String; Notification Title
+  -- Arg 2: String; Notification Text
+  -- Arg 3: Number; Notification Duration
 ```
 # Upcoming
   for it to actually fucking work lol;
