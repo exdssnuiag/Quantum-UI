@@ -10,7 +10,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/exdss
 Library.Create("Coolhub") -- Arg 1: String; Hubname
 ```
 # Upcoming
-  for it to actually fucking work lol
-  themes
-  look bettah
+  for it to actually fucking work lol;
+  themes;
+  look bettah;
   code bettah
