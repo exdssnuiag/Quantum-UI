@@ -11,9 +11,21 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/exdss
 ```lua
 Library.Create("Coolhub") -- Arg 1: String; Hubname
 ```
-  To change the toggle keybind, enter
+  Changing toggle keybind
   ```lua
 Library:ChangeKeybind(Enum.Keycode.X) -- Arg 1: Keycode; Toggle keybind
+```
+  Notifying
+  ```lua
+Library:Notify({
+  Title = "Kewl title";
+  Text = "Message test";
+  Duration = 3
+})-- [[
+  Arg 1: String; Notification Title
+  Arg 2: String; Notification Text
+  Arg 3: Number; Notification Duration
+]]
 ```
 # Upcoming
   for it to actually fucking work lol;
