@@ -114,8 +114,8 @@ function QuantumLib.Create(HubName)
 	self.TabList.Parent = self.Tabs
 	self.Exit.Parent = self.Main
 
-	self.Disabled = false
-	self.Cooldown = false
+	self.Disabled = true
+	self.Cooldown = true
 	self.Warned = false
 
 	local Connection; Connection = self.Exit.Activated:Connect(function()
@@ -148,6 +148,8 @@ function QuantumLib.Create(HubName)
 			self:GuiToggle()
 		end
 	end)
+	
+	self:GuiToggle()
 
 	return self
 end
