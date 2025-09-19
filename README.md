@@ -7,7 +7,7 @@
   ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/exdssnuiag/Quantum-UI/refs/heads/main/Hub_Code.lua"))()
 ```
-  To create the window, enter
+  Creating a window
 ```lua
 Library.Create("Coolhub") -- Arg 1: String; Hubname
 ```
