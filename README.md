@@ -27,7 +27,3 @@ Library:Notify({
   -- Arg 3: Number; Notification Duration
 ```
 # Upcoming
-  for it to actually fucking work lol;
-  themes;
-  look bettah;
-  code bettah
