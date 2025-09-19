@@ -3,7 +3,7 @@
   This UI will be finished soon.
   Press Z to toggle menu. (Default)
 # How to use
-  Import the library by entering
+  Importing the library
   ```lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/exdssnuiag/Quantum-UI/refs/heads/main/Hub_Code.lua"))()
 ```
